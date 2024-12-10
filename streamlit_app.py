@@ -2,7 +2,6 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 #import vega_datasets as vega
-from vega_datasets import data
 from snowflake.snowpark.context import get_active_session
 
 # Write directly to the app
