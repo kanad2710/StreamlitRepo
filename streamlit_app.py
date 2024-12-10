@@ -5,7 +5,8 @@ import numpy as np
 from snowflake.snowpark.context import get_active_session
 
 # Write directly to the app
-st.title("Example Streamlit App :balloon:")
+st.title("Github Streamlit Integration")
+# st.title("Example Streamlit App :balloon:")
 st.write(
     """Normal Text
     **Bold Text**
@@ -25,4 +26,4 @@ chart_data = pd.DataFrame(np.random.randn(20, 3), columns=["a", "b", "c"])
 st.area_chart(chart_data)
 
 
-st.title("Chat Feature")
+
